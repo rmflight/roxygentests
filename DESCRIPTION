@@ -1,12 +1,21 @@
 Package: roxygentests
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Provides Tests Roclet for roxygen2
+Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    c(person(given = c("Robert", "M"),
+           family = "Flight",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "rflight79@gmail.com"),
+      person(given = c("Thomas", "J"),
+           family = "Leeper",
+           role = c("aut"),
+           email = ""),
+      person(given = "Gabe",
+           family = "Becker",
+           role = c("aut"),
+           email = "")
+Description: Allows users to write @tests in roxygen2 documentation
+  blocks, adding the tests to any already defined test files.
+License: MIT
 Encoding: UTF-8
 LazyData: true
