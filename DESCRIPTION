@@ -16,6 +16,6 @@ Authors@R:
            email = "")
 Description: Allows users to write @tests in roxygen2 documentation
   blocks, adding the tests to any already defined test files.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
