@@ -13,7 +13,11 @@ Authors@R:
       person(given = "Gabe",
            family = "Becker",
            role = c("aut"),
-           email = "")
+           email = ""),
+      person(given = "Jim",
+           family = "Hester",
+           role = "aut",
+           email = ""))
 Description: Allows users to write @tests in roxygen2 documentation
   blocks, adding the tests to any already defined test files.
 License: MIT + file LICENSE
